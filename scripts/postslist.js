@@ -13,7 +13,7 @@ function viewFullPost() {
 }
 
 function deletePost(event) {
-    event.preventDefault(); // prevents page from refreshing
+    event.preventDefault(); //
     document.getElementById('deletePostModal').style.display = 'none';
     var idToDelete = document.getElementById('deletePostModal').getAttribute('idToDelete');
     document.getElementById(idToDelete).remove();
